@@ -3,7 +3,7 @@ Playwright UI &amp; API automation
 
 # Pre-requiste
 1. Clone the PlaywrightTest repository on your system
-2. Install the npm dependencies
+2. Install the npm dependencies <br />
    npm ci
 
 # Design pattern: POM
@@ -15,17 +15,17 @@ Playwright UI &amp; API automation
   As the tests are independent, it increases the readability
 
 # Folder structure:
-|/pageobjects/
-|/pageobjects/HomePage/
-|/pageobjects/ExploreCar/
-|/tests/
-|/tests/api/
-|/tests/api/ApiNetworkTest.spec/
-|/tests/ui/
-|/tests/ui/PolestarTest.spec/
-|/utils/
-|/utils/ApiGorest.spec/
-|/utils/ApiReqres.spec/
+|/pageobjects/ <br />
+|/pageobjects/HomePage/ <br />
+|/pageobjects/ExploreCar/ <br />
+|/tests/ <br />
+|/tests/api/ <br />
+|/tests/api/ApiNetworkTest.spec/ <br />
+|/tests/ui/ <br />
+|/tests/ui/PolestarTest.spec/ <br />
+|/utils/ <br />
+|/utils/ApiGorest.spec/ <br />
+|/utils/ApiReqres.spec/ <br />
 
 # Execution
 To execute the api test: npm run apitest
