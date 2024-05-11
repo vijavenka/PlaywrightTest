@@ -1,6 +1,11 @@
 # PlaywrightTest
 Playwright UI &amp; API automation
 
+# Pre-requiste
+1. Clone the PlaywrightTest repository on your system
+2. Install the npm dependencies
+   npm ci
+
 # Design pattern: POM
 # Easy Maintenance: 
   In web automation, everything depends on the DOM tree and selectors. The page object model makes maintenance easier even if there is a change in the DOM tree and selectors we don’t have to modify everywhere. 
