@@ -28,8 +28,8 @@ Playwright UI &amp; API automation
 |/utils/ApiReqres.spec/ <br />
 
 # Execution
-To execute the api test: npm run apitest <br />
-To execute the ui test: npm run webtest <br />
+To execute the api test: **npm run apitest** <br />
+To execute the ui test: **npm run webtest** <br />
 
 # Reports:
 index.html report is created in playwright-report folder of the project
