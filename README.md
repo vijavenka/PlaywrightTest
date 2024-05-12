@@ -28,8 +28,8 @@ Playwright UI &amp; API automation
 |/utils/ApiReqres.spec/ <br />
 
 # Execution
-To execute the api test: npm run apitest
-To execute the ui test: npm run webtest
+To execute the api test: npm run apitest <br />
+To execute the ui test: npm run webtest <br />
 
 # Reports:
 index.html report is created in playwright-report folder of the project
@@ -38,22 +38,22 @@ index.html report is created in playwright-report folder of the project
 Traces will be created under test-results folder of the porject
 
 # api test cases 
-baseURI: 
-	https://reqres.in/ 
-		1. getCall
-		2. putCall
-		3. deleteCall
-		4. postCall
-		5. invalidApiCall
-	https://gorest.co.in/
-		1. getCall
-		2. putCall
-		3. postCall
-		4. deleteCall
-		5. invalidApiCall
+baseURI:  <br />
+	https://reqres.in/  <br />
+		1. getCall <br />
+		2. putCall <br />
+		3. deleteCall <br />
+		4. postCall <br />
+		5. invalidApiCall <br />
+	https://gorest.co.in/ <br />
+		1. getCall <br />
+		2. putCall <br />
+		3. postCall <br />
+		4. deleteCall <br />
+		5. invalidApiCall <br />
 
 # ui test cases
-https://www.polestar.com/global/developer/get-started/
-	1. navigate to Polestar2
-	2. navigate to Polestar3
+https://www.polestar.com/global/developer/get-started/  <br />
+	1. navigate to Polestar2 <br />
+	2. navigate to Polestar3 <br />
   
