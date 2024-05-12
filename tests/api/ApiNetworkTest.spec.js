@@ -26,6 +26,6 @@ test('ApiGorest test', async({page})=>{
     await apiGorest.getCall()
     await apiGorest.putCall()
     await apiGorest.postCall()
-    // await apiGorest.deleteCall() //commented because it deletes the record, hence unable to execute remaining method
+    await apiGorest.deleteCall()
     await apiGorest.invalidApiCall()
 })
