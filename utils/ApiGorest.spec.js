@@ -54,7 +54,8 @@ class ApiGorest {
     }
 
     async deleteCall() {
-        const response =  await this.apiContext.delete("https://gorest.co.in/public/v2/users/6899951")
+        const response =  await this.apiContext.delete("https://gorest.co.in/public/v2/users/6899951", { 
+        headers: { 'Authorization': this.token, 'Content-Type': 'application/json'}})
         expect(await response.status()).toBe(204)
         expect(await response.ok()).toBeTruthy()
     }
